@@ -6,7 +6,7 @@ const { readFromFile, writeToFile, readAndAppend } = require('../Helpers/fsUtils
 
 
 fb.get('/', (req, res) =>
-  readFromFile('./db/feedback.json').then((data) => res.json(JSON.parse(data)))
+  readFromFile('./Develop/db.json').then((data) => res.json(JSON.parse(data)))
 );
 
 fb.post('/', (req, res) => {
