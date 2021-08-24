@@ -12,7 +12,9 @@ Note Taker can be used to write and save notes using Express.js.
 - [License](#license)
 - [Contact Information](#contact-information)
 
-![Screenshot of Note Taker]()
+![Screenshot of Note Taker #1](./public/Assets/NoteTaker1.png)
+
+![Screenshot of Note Taker #2](./public/Assets/NoteTaker2.png)
 
 ## Installation
 

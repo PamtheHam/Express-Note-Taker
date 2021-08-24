@@ -17,5 +17,10 @@
         "title": "Would you look at that!",
         "text": "You can see my previous note! Woohoo!",
         "note_id": "e86c410b-24ab-4e97-a621-e63e98a15016"
+    },
+    {
+        "title": "Hello World!",
+        "text": "Remember to drink some water today!",
+        "note_id": "a6d36915-5ce3-4be7-99f9-02f3a2cf72ff"
     }
 ]
