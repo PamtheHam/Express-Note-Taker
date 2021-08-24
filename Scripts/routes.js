@@ -1,15 +1,14 @@
 const { v4: uuidv4 } = require('uuid');
 const fs = require('fs');
-const express = require('express');
-const fb = express.Router();
+const router = require('express').Router();
 const { readFromFile, writeToFile, readAndAppend } = require('../Helpers/fsUtils')
 
 
-fb.get('/', (req, res) =>
+router.get('/', (req, res) =>
   readFromFile('./Develop/db.json').then((data) => res.json(JSON.parse(data)))
 );
 
-fb.post('/', (req, res) => {
+router.post('/', (req, res) => {
     
     const { title, text} = req.body;
 
@@ -46,4 +45,4 @@ fb.post('/', (req, res) => {
     return res.send();
   });
 
-  module.exports = fb;
+  module.exports = router;
